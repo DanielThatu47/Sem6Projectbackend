@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Classroom = require('../models/Classroom');
+const Classroom = require('./Classroom');
 
 // Create a classroom
 router.post('/classrooms', async (req, res) => {
